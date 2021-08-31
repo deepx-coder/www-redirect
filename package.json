@@ -1,0 +1,26 @@
+{
+  "name": "www-redirect",
+  "version": "1.0.0",
+  "description": "Redirect 'www' to 'non-www' and 'non-www' to 'www' in NodeJs and Express. (example.com to www.example.com or www.example.com to example.com) ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepx-coder/www-redirect.git"
+  },
+  "keywords": [
+    "www",
+    "non-www",
+    "www to non-www",
+    "non-www to www",
+    "www redirection"
+  ],
+  "author": "Shubhadeep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepx-coder/www-redirect/issues"
+  },
+  "homepage": "https://github.com/deepx-coder/www-redirect#readme"
+}
