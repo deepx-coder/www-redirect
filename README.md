@@ -35,14 +35,14 @@ npm i www-redirect
 ## Usage
 
 ```sh
-const express = require(&#34;express&#34;);
-const redirect = require(&#34;www-redirect&#34;);
+const express = require("express");
+const redirect = require("www-redirect");
 const app = express();
 
 // app.use(redirect(option)); // option = 'www' or option = 'non-www'
 // 'www' option for redirecting non-www to www and 'non-www'option for redirecting www to non-www
 
-app.use(redirect(&#34;non-www&#34;)); 
+app.use(redirect("non-www")); 
 
 ```
 
@@ -50,7 +50,7 @@ app.use(redirect(&#34;non-www&#34;));
 
 👤 **Shubhadeep**
 
-- Website: https://insload.com
+- Websites: https://insload.com | https://deepxnet.com
 - Twitter: [@shubhaX](https://twitter.com/shubhaX)
 - GitHub: [@deepx-coder](https://github.com/deepx-coder)
 - LinkedIn: [@shubha-deep-halder](https://linkedin.com/in/shubha-deep-halder)
