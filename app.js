@@ -1,4 +1,4 @@
-const redirect = (option) => (req, res, next) => {
+const wwwRedirect = (option) => (req, res, next) => {
   const host = req.headers.host;
   return option
     ? "www" === option
@@ -13,4 +13,4 @@ const redirect = (option) => (req, res, next) => {
       : next()
     : next();
 };
-module.exports = redirect;
+module.exports = wwwRedirect;
