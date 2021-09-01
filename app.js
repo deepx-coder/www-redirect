@@ -4,11 +4,13 @@ const redirect = (option) => (req, res, next) => {
     ? "www" === option
       ? host.match(/^www\..*/i)
         ? next()
-        : res.redirect(301, "http://www." + host)
+        : res.redirect(301, `${req.protocol}://www.${host}${req.url}`)
       : "non-www" === option && null !== host.match(/^www/)
-      ? res.redirect(301, "http://" + host.replace(/^www\./, "") + req.url)
+      ? res.redirect(
+          301,
+          `${req.protocol}://${host.replace(/^www\./, "")}${req.url}`
+        )
       : next()
     : next();
 };
-
 module.exports = redirect;

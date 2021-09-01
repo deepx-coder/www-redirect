@@ -1,8 +1,8 @@
 {
   "name": "www-redirect",
-  "version": "1.0.0",
-  "description": "Redirect 'www' to 'non-www' and 'non-www' to 'www' in NodeJs and Express. (example.com to www.example.com or www.example.com to example.com) ",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "Redirect 'www' to 'non-www' and 'non-www' to 'www' in NodeJs (Express). (example.com to www.example.com or www.example.com to example.com) ",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,9 +13,18 @@
   "keywords": [
     "www",
     "non-www",
+    "www redirect",
+    "www redirection express",
     "www to non-www",
     "non-www to www",
-    "www redirection"
+    "www redirection",
+    "remove www",
+    "301 redirection",
+    "middleware",
+    "canonical",
+    "redirect",
+    "node",
+    "express"
   ],
   "author": "Shubhadeep",
   "license": "MIT",

@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to www-redirect 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.2-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
   <img src="https://img.shields.io/badge/node-%3E%3D9.3.0-blue.svg" />
   <a href="https://github.com/deepx-coder/www-redirect#readme" target="_blank">
@@ -17,12 +17,13 @@
   </a>
 </p>
 
-> Redirect 'www' to 'non-www' and 'non-www' to 'www' in NodeJs and Express. (example.com to www.example.com or www.example.com to example.com)
+> Redirect 'www' to 'non-www' and 'non-www' to 'www' in NodeJs(Express). (example.com to www.example.com or www.example.com to example.com)
 
 ### 🏠 [Homepage](https://github.com/deepx-coder/www-redirect)
 
 ## Prerequisites
 
+- npm >=5.5.0
 - node >=9.3.0
 
 ## Install
